@@ -77,6 +77,13 @@ similar to list in python
       array_list.remove(0);
 ```
 
+- check whether an element is in the arraylist
+
+```java
+      boolean exits = array_list.contains(46);
+```
+
+
 # For
 
 ## iterate elements in list

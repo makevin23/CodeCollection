@@ -44,6 +44,12 @@ similar to dict in python
       int returned_value = hashmap.remove("AKB");
 ```
 
+- size of a HashMap
+
+```java
+hashmap.size();
+```
+
 
 
 # List
@@ -83,6 +89,17 @@ similar to list in python
       boolean exits = array_list.contains(46);
 ```
 
+- size or length of an arraylist
+
+```java
+array_list.size();
+```
+
+- get and remove the element at `index` from an arraylist
+
+```java
+array_list.remove(int index);
+```
 
 # For
 

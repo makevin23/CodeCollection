@@ -145,7 +145,6 @@ stack.empty();
 stack.search(7);
 ```
 
-
 ## For
 
 ### iterate elements in list

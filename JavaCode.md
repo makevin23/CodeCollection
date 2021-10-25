@@ -1,4 +1,6 @@
-# Hello World
+# Java Codecollection
+
+## Hello World
 
 ```java
 public class HelloWorld {
@@ -9,7 +11,7 @@ public class HelloWorld {
 }
 ```
 
-# HashMap
+## HashMap
 
 similar to dict in python
 
@@ -50,11 +52,9 @@ similar to dict in python
 hashmap.size();
 ```
 
+## List
 
-
-# List
-
-## ArrayList
+### ArrayList
 
 similar to list in python
 
@@ -101,9 +101,54 @@ array_list.size();
 array_list.remove(int index);
 ```
 
-# For
+- find min of an arraylist
+  
+```java
+minimum = Collections.min(array_list);
+```
 
-## iterate elements in list
+## Stack
+
+- initiate
+
+```java
+Stack<int> stack = new Stack<>();
+```
+
+- push (Pushes an item onto the top of this stack.)
+
+```java
+stack.push(5);
+```
+
+- pop (return the object at the top of this stack)
+
+```java
+stack.pop();
+```
+
+- peek (return the object at the top of this stack)
+
+```java
+stack.peek();
+```
+
+- empty (`true` if stack is empty, `false` otherwise)
+
+```java
+stack.empty();
+```
+
+- search (return the 1-based position from the top of the stack where the object is located; the return value `-1` indicates that the object is not on the stack.)
+
+```java
+stack.search(7);
+```
+
+
+## For
+
+### iterate elements in list
 
 ```java
       for(int n: array_list){
